@@ -1,10 +1,8 @@
 import React from "react"
-
+import { Square } from "../../styled"
 
 export default function Scene(props) {
-    return (
-        <div>
-            <p>{props.p}</p>
-        </div>
+    return (    
+      <Square><p>{props.p}</p></Square>    
     )
 }
