@@ -8,4 +8,9 @@ export const Square = styled.div`
     color: black;
     border: solid 1px black;
     border-radius: 25px;
+    text-align: center;
 `;
+
+export const Btn = styled.button`
+    width: 50;
+`

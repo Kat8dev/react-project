@@ -1,6 +1,7 @@
 import React from "react"
 import Scene from "./components/scene/Scene"
 import data from "./components/data"
+import Button from "./components/Button"
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
   })
   return (
   <div>
+    <Button buttonText ={"Anterior"}/>
+    <Button buttonText ={"Següent"}/>
     {displayScenes}
   </div>
   );
