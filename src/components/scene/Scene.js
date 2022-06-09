@@ -1,8 +1,10 @@
-import React from "react"
-import { Square } from "../../styled"
+import { Div } from "../../styled"
 
 export default function Scene(props) {
     return (    
-      <Square><p>{props.p}</p></Square>    
+      <Div active={props.active}><p>{props.p}</p></Div>    
     )
 }
+
+  
+ 
